@@ -101,7 +101,7 @@ export function DocsLayout({ children }: { children: React.ReactNode }) {
               </div>
             </div> */}
             <Button variant="ghost" size="icon" asChild>
-              <a href="https://github.com/shadcn-ui/ui" target="_blank" rel="noreferrer">
+              <a href="https://github.com/Glaezz/okeconnect-php" target="_blank" rel="noreferrer">
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </a>
