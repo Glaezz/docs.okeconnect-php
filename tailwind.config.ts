@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+import { Config } from 'tailwindcss';
 
-const config = {
+const config: Config = {
   darkMode: ["class"],
   content: [
     "./pages/**/*.{ts,tsx}",
