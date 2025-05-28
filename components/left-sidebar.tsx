@@ -123,9 +123,9 @@ export function LeftSidebar() {
             Testing
           </Link>
           <Link
-            href="/core/create-transaction"
+            href="/development/example"
             className={`block rounded-md px-4 py-2 text-sm font-medium ${
-              isActive("/core/create-transaction")
+              isActive("/development/example")
                 ? "bg-accent text-accent-foreground"
                 : "text-muted-foreground hover:bg-accent hover:text-accent-foreground"
             }`}
