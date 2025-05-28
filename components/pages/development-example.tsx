@@ -111,37 +111,11 @@ export function Page() {
   return (
     <div className="max-w-3xl space-y-10">
       <div className="space-y-2">
-        <h1 className="text-3xl font-bold tracking-tight">Testing</h1>
-        <span>Transaction parameter for testing purpose.</span>
+        <h1 className="text-3xl font-bold tracking-tight">Example Project</h1>
+        <span>Example PHP Native projects.</span>
       </div>
 
-      <div>
-      <Table className="my-4" title="Request Parameters">
-          <TableCaption>
-            recommendation for testing parameter
-          </TableCaption>
-            <TableHeader>
-              <TableRow className="bg-muted">
-                <TableHead className="w-[100px]">Variable</TableHead>
-                <TableHead>type</TableHead>
-                <TableHead>non-Open Denom</TableHead>
-                <TableHead>Open Denom</TableHead>
-              </TableRow>
-            </TableHeader>
-            <TableBody>
-              {reqParam.map((item, index) => (
-                <TableRow key={index}>
-                  <TableCell className="font-medium">{item.var}</TableCell>
-                  <TableCell>{item.type}</TableCell>
-                  <TableCell>{item.value}</TableCell>
-                  <TableCell>{item.value2}</TableCell>
-                </TableRow>
-              ))}
-            </TableBody>
-          </Table>
-      </div>
-
-      <span>If you want to testing create transaction, and handling callback. These parameter enough</span>
+      <span><a href="https://github.com/Glaezz/example.okeconnect-php">https://github.com/Glaezz/example.okeconnect-php</a></span>
 
     </div>
     
